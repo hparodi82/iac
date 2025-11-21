@@ -1,6 +1,6 @@
 ---
 title: "IT Consulting"
-draft: true
+draft: false
 date: 2025-09-27T11:54:02+06:00
 description : "This is meta description"
 image: images/service/service-3.jpg
