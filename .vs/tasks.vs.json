@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-business-consulting",
+      "appliesTo": "content/english/service/business-consulting.md",
+      "type": "launch"
+    }
+  ]
+}

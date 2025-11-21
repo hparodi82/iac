@@ -1,0 +1,28 @@
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Hugo build artifacts
+/public/
+/resources/
+/.hugo_build.lock
+/hugo_stats.json
+
+# Temporary / cache dirs
+.dist/
+.tmp/
+.sass-cache/
+builds/
+.lock
+
+# Node / JS tooling
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Go tooling
+go.sum
+
+# Editor / tooling (optional – if you don’t want to track them)
+jsconfig.json

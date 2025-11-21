@@ -1,0 +1,43 @@
+{{ define "main" }}
+  {{ "<!-- industry list -->" | safeHTML }}
+  <section class="section">
+    <div class="container">
+
+      <!-- Top intro content from content/english/industry/_index.md -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+          <div class="content text-center">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Industry cards grid -->
+      <div class="row g-4 industry-grid">
+        {{ range .Pages.ByTitle }}
+          <div class="col-12 col-sm-6 col-lg-4">
+            <a href="{{ .RelPermalink }}" class="industry-card">
+              {{ with .Params.card_image }}
+                {{ partial "image.html" (dict "Src" . "Alt" $.Title "Class" `industry-card-image`) }}
+              {{ end }}
+
+              <div class="industry-card-body">
+                <h3 class="industry-card-title">
+                  {{ .Title }}
+                </h3>
+
+                {{ with .Params.description_short }}
+                  <p class="industry-card-text">
+                    {{ . }}
+                  </p>
+                {{ end }}
+              </div>
+            </a>
+          </div>
+        {{ end }}
+      </div>
+
+    </div>
+  </section>
+  {{ "<!-- /industry list -->" | safeHTML }}
+{{ end }}

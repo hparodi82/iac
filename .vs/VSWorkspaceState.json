@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\content\\english",
+    "\\themes\\biztrox-hugo",
+    "\\themes\\biztrox-hugo\\assets",
+    "\\themes\\biztrox-hugo\\assets\\js",
+    "\\themes\\biztrox-hugo\\assets\\plugins",
+    "\\themes\\biztrox-hugo\\assets\\scss",
+    "\\themes\\biztrox-hugo\\layouts",
+    "\\themes\\biztrox-hugo\\layouts\\author",
+    "\\themes\\biztrox-hugo\\layouts\\blog"
+  ],
+  "SelectedNode": "\\hugo.toml",
+  "PreviewInSolutionExplorer": false
+}

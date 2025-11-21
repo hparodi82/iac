@@ -1,0 +1,11 @@
+/* Force hero slider text to be white and bold */
+.hero-content {
+  h1, h2, h3, h4, h5, h6, p, span {
+    color: #fff !important; /* White text */
+    font-weight: 700 !important; /* Bold */
+  }
+
+  .btn {
+    font-weight: 600;
+  }
+}
