@@ -105,7 +105,7 @@ mastodon = "" # Your verification code
 # google map
 [google_map]
 enable = true 
-address = "https://www.google.com/maps/embed/v1/place?q=Hollywood+coffee+club,+Riyadh+Saudi+Arabia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+address = "https://www.google.com/maps?q=Leander,+TX&output=embed"
 
 # cookies
 [cookies]

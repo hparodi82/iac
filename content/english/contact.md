@@ -15,7 +15,7 @@ contact_info:
   icon: "ti-email"
   content: "<br> info@utptech.net"
   
-- name: "location"
-  icon: "ti-map-alt"
-  content: "Austin, San Antonio, and RGV, Texas. <br> Serving businesses statewide"
+#- name: "location"
+#  icon: "ti-map-alt"
+#  content: "Austin, San Antonio, and RGV, Texas. <br> Serving businesses statewide"
 ---
