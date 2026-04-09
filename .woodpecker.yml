@@ -4,13 +4,13 @@ steps:
     commands:
       - hugo --minify
     when:
-      event: push
+      event: [push, manual]
       branch: main
 
   docker-build:
     image: woodpeckerci/plugin-docker-buildx
     when:
-      event: push
+      event: [push, manual]
       branch: main
     settings:
       repo: 192.168.30.11:5000/hugo-site
