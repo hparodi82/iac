@@ -34,6 +34,11 @@ steps:
       - docker stop hugo-site || true
       - docker rm hugo-site || true
       - docker run -d --name hugo-site --restart always -p 80:80 192.168.30.11:8080/hugo-site/hugo-site:latest
+    environment:
+      HARBOR_USER:
+        from_secret: harbor_username
+      HARBOR_PASS:
+        from_secret: harbor_password
     when:
       event: [push, manual]
       branch: main
