@@ -14,9 +14,11 @@ steps:
       event: [push, manual]
       branch: main
     settings:
-      repo: 192.168.30.11:8443/hugo-site/hugo-site
-      registry: https://192.168.30.11:8443
+      repo: 192.168.30.11:8080/hugo-site/hugo-site
+      registry: http://192.168.30.11:8080
       tags: latest
+      insecure: true
+      insecure_registry: true
       username:
         from_secret: harbor_username
       password:
