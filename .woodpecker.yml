@@ -30,6 +30,7 @@ steps:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     commands:
+      - docker login http://192.168.30.11:8080 -u $HARBOR_USER -p $HARBOR_PASS
       - docker pull 192.168.30.11:8080/hugo-site/hugo-site:latest
       - docker stop hugo-site || true
       - docker rm hugo-site || true
