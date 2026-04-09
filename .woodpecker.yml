@@ -17,3 +17,4 @@ steps:
       repo: 192.168.30.11:5000/hugo-site
       tags: latest
       insecure: true
+      daemon_off: true
