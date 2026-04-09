@@ -61,6 +61,7 @@ home = ["HTML", "RSS", "WebAppManifest"]
 # Default JPEG or WebP quality setting. Default is 75.
 quality = 90
 resampleFilter = "Lanczos"
+format = "jpg"
 
 ############################# Caches ###############################
 [caches]
