@@ -15,8 +15,6 @@ steps:
       branch: main
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
     settings:
       repo: 192.168.30.11:5000/hugo-site
       tags: latest
