@@ -1,19 +1,23 @@
 steps:
-  - name: build
+  build:
     image: hugomods/hugo:exts-non-root
     commands:
       - npm install
       - hugo --minify
     when:
-      - event: [push, manual]
-        branch: main
+      event: [push, manual]
+      branch: main
 
-  - name: deploy
-    image: alpine
-    commands:
-      - cp -r public/* /deploy/
-    volumes:
-      - /home/hrparodi/hugo-site:/deploy
+  docker-build:
+    image: woodpeckerci/plugin-docker-buildx
     when:
-      - event: [push, manual]
-        branch: main
+      event: [push, manual]
+      branch: main
+    settings:
+      repo: 192.168.30.11:8080/hugo-site/hugo-site
+      tags: latest
+      insecure: true
+      username:
+        from_secret: harbor_username
+      password:
+        from_secret: harbor_password
