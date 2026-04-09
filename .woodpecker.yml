@@ -18,6 +18,7 @@ steps:
       registry: http://192.168.30.11:8080
       tags: latest
       insecure: true
+      insecure_registry: true
       username:
         from_secret: harbor_username
       password:
