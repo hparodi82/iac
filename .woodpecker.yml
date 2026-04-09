@@ -1,4 +1,7 @@
-steps:
+# add daemon_off: true
+git add .woodpecker.yml
+git commit -m "Fix docker-build: use host socket, add registry"
+git pushsteps:
   build:
     image: hugomods/hugo:exts-non-root
     commands:
@@ -17,3 +20,4 @@ steps:
       repo: 192.168.30.11:5000/hugo-site
       tags: latest
       insecure: true
+      daemon_off: true
