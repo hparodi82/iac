@@ -6,5 +6,5 @@ RUN npm install && hugo --minify
 
 # Serve stage
 FROM nginx:alpine
-COPY --from=builder /site/public /usr/share/nginx/html
+COPY public /usr/share/nginx/html
 EXPOSE 80
