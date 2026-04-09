@@ -24,3 +24,16 @@ steps:
     when:
       event: [push, manual]
       branch: main
+
+  deploy:
+    image: docker:cli
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    commands:
+      - docker pull 192.168.30.11:8080/hugo-site/hugo-site:latest
+      - docker stop hugo-site || true
+      - docker rm hugo-site || true
+      - docker run -d --name hugo-site --restart always -p 80:80 192.168.30.11:8080/hugo-site/hugo-site:latest
+    when:
+      event: [push, manual]
+      branch: main
