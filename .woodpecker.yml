@@ -1,3 +1,7 @@
+when:
+  event: push
+  branch: main
+
 steps:
   build:
     image: hugomods/hugo:latest
@@ -5,9 +9,8 @@ steps:
       - hugo --minify
 
   docker-build:
-    image: docker:dind
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    commands:
-      - docker build -t 192.168.30.11:5000/hugo-site:latest .
-      - docker push 192.168.30.11:5000/hugo-site:latest
+    image: woodpeckerci/plugin-docker-buildx
+    settings:
+      repo: 192.168.30.11:5000/hugo-site
+      tags: latest
+      insecure: true
