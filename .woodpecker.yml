@@ -1,7 +1,8 @@
 steps:
   build:
-    image: hugomods/hugo:latest
+    image: hugomods/hugo:exts-non-root
     commands:
+      - npm install
       - hugo --minify
     when:
       event: [push, manual]
