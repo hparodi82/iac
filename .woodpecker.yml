@@ -1,32 +1,17 @@
 steps:
   build:
     image: hugomods/hugo:latest
+    commands:
+      - hugo --minify
     when:
       event: push
       branch: main
-    commands:
-      - hugo --minify
 
   docker-build:
     image: woodpeckerci/plugin-docker-buildx
     when:
       event: push
       branch: main
-    settings:
-      repo: 192.168.30.11:5000/hugo-site
-      tags: latest
-      insecure: truewhen:
-  event: push
-  branch: main
-
-steps:
-  build:
-    image: hugomods/hugo:latest
-    commands:
-      - hugo --minify
-
-  docker-build:
-    image: woodpeckerci/plugin-docker-buildx
     settings:
       repo: 192.168.30.11:5000/hugo-site
       tags: latest
