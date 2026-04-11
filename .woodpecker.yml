@@ -31,11 +31,11 @@ steps:
       event: [push, manual]
       branch: main
     environment:
-      KUBECONFIG_DATA:
-        from_secret: kubeconfig
+      KUBECONFIG_B64:
+        from_secret: kubeconfig_b64
     commands:
-      - echo "Secret length is $(printenv KUBECONFIG_DATA | wc -c)"
       - mkdir -p ~/.kube
-      - printenv KUBECONFIG_DATA > ~/.kube/config
-      - cat ~/.kube/config
+      - echo "$KUBECONFIG_B64" | base64 -d > ~/.kube/config
+      - cat ~/.kube/config | grep server
+      - kubectl rollout restart deployment/hugo-site
       - kubectl rollout restart deployment/hugo-site
