@@ -22,7 +22,6 @@
   {{ end }}
 {{ end }}
 
-
 <!-- main script -->
 {{ $scripts = $scripts | append (resources.Get "js/script.js") }}
 {{ $scripts = $scripts | resources.Concat "js/scripts.js" }}

@@ -7,14 +7,11 @@
 				<div class="text-center">
 					<figure>
 						{{ if .Params.Image }}
-						{{ partial "image.html" (dict "Src" .Params.image "Alt" "blog-image" "Class" `rounded-circle`
-						"Size" "100x") }}
+						{{ partial "image.html" (dict "Src" .Params.image "Alt" "blog-image" "Class" `rounded-circle` "Size" "100x") }}
 						{{else if .Params.Email}}
-						{{ $emailHash := md5 .Params.Email }}
-						{{ $gravatorUrl := print "https://www.gravatar.com/avatar/" $emailHash "?s=100&pg&d=identicon"
-						}}
-						{{ partial "image.html" (dict "Src" $gravatorUrl "Alt" "author image" "Class" `rounded-circle`
-						"Size" "100x") }}
+						{{ $emailHash := md5 .Params.Email }}  
+						{{ $gravatorUrl := print "https://www.gravatar.com/avatar/" $emailHash "?s=100&pg&d=identicon" }} 
+						{{ partial "image.html" (dict "Src" $gravatorUrl "Alt" "author image"  "Class" `rounded-circle` "Size" "100x") }}
 						{{ end }}
 						<figcaption class="mt-4">
 							<h3 class="fw-bold">
@@ -47,8 +44,7 @@
 			</div>
 			{{ range where site.RegularPages "Params.author" .Title }}
 			<div class="col-lg-4 col-sm-6 mb-4">
-				{{ partial "components/post-card.html" . }}
-
+				{{ .Render "post" }}
 			</div>
 			{{ end }}
 		</div>

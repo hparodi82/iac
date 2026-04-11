@@ -92,7 +92,7 @@
 			</div>
 			{{ range $index, $element:= where site.RegularPages "Section" $service.section }}
 			{{ if lt $index 3 }}
-			{{ partial "components/service-card.html" . }}
+			{{ .Render "service" }}
 			{{ end }}
 			{{ end }}
 		</div>
@@ -252,7 +252,7 @@
 			{{ if lt $index 3}}
 			<!-- blog-item -->
 			<div class="col-lg-4 col-sm-6 mb-4">
-				{{ partial "components/post-card.html" . }}
+				{{ .Render "post" }}
 			</div>
 			{{ end }}
 			{{ end }}

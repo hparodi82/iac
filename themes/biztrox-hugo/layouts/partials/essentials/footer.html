@@ -7,83 +7,45 @@
             <!-- logo -->
             <a class="mb-30 d-inline-block" href="{{ site.BaseURL | relLangURL }}">
               {{ if site.Params.logo_footer }} 
-                {{ partial "image.html" (dict "Src" .Site.Params.logo_footer "Alt" "biztrox" "Width" .Site.Params.logo_footer_width) }}
+              {{ partial "image.html" (dict "Src" .Site.Params.logo_footer "Alt" "biztrox" "Width" .Site.Params.logo_footer_width) }}
               {{ else }}
-                {{ site.Title }}
+              {{site.Title}}
               {{ end }}
             </a>
-            {{ with site.Params.footer_content }}
-              <p class="text-white mb-30">{{ . | markdownify }}</p>
-            {{ end }}
-
+            {{ with site.Params.footer_content }}<p class="text-white mb-30">{{ . | markdownify }}</p>{{ end }}
             <!-- social icon -->
             <ul class="list-inline">
               {{ range site.Params.social }}
-                <li class="list-inline-item mb-2">
-                  <a class="social-icon-outline" href="{{ .link | safeURL }}" aria-label="{{ .title }}">
-                    <i class="{{ .icon }}"></i>
-                  </a>
-                </li>
+              <li class="list-inline-item mb-2">
+                <a class="social-icon-outline" href="{{ .link | safeURL }}" aria-label="{{.title}}">
+                  <i class="{{ .icon }}"></i>
+                </a>
+              </li>
               {{ end }}
             </ul>
           </div>
         </div>
-
-        <!-- Services + Industries -->
+        <!-- footer links -->
         <div class="col-lg-2 col-md-4 col-6">
           <h4 class="text-white mb-4">{{ i18n "services" }}</h4>
           <ul class="footer-links">
-
-  {{/* Get service pages and filter by current language */}}
-  {{ $services := where site.RegularPages "Type" "service" }}
-  {{ $services = where $services "Lang" .Lang }}
-
-  {{ $exclude := slice "IT Consulting" "Structured Cabling" "Managed IT Services" "Networking" "Cyber Security" "Smart Home/Business" "VoIP Solutions" }}
-
-  {{ range $services }}
-    {{ $segments := split .File.Path "/" }}
-    {{/* Include any page located under the `service` folder (any depth) */}}
-    {{ if and (eq (index $segments 0) "service") (not (in $exclude .Title)) }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
-    {{ end }}
-  {{ end }}
-
-</ul>
-
-          <!-- Industries -->
-          <h4 class="text-white mb-4 mt-4">Industries</h4>
-          <ul class="footer-links">
-            <li><a href="/industry/medical/">Medical & Healthcare</a></li>
-            <li><a href="/industry/dental/">Dental Practices & DSOs</a></li>
-            <li><a href="/industry/vision/">Optometry & Vision Care</a></li>
-            <li><a href="/industry/radiology/">Radiology</a></li>
-            <li><a href="/industry/education/">Educational Institutions</a></li>
-            <li><a href="/industry/government/">Government & Public Sector</a></li>
-            <li><a href="/industry/non-profit/">Non-Profit Organizations</a></li>
-            <li><a href="/industry/smb/">Small & Medium Businesses</a></li>
-            <li><a href="/industry/corporate/">Corporate & Enterprises</a></li>
-            <li><a href="/industry/hospitality/">Hospitality & Hotels</a></li>
-            <li><a href="/industry/restaurant/">Restaurants & Food Service</a></li>
+            {{ range ( where site.RegularPages "Type" "service") }}
+            <li><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></li>
+            {{ end }}
           </ul>
         </div>
-
-        <!-- Quick Links (fixed order) -->
+        <!-- footer links -->
         <div class="col-lg-2 col-md-4 col-6">
           <h4 class="text-white mb-4">{{ i18n "quick_links" }}</h4>
           <ul class="footer-links">
-
-            <li><a href="{{ "/" | relLangURL }}">Home</a></li>
-            <li><a href="{{ "about/" | relLangURL }}">About</a></li>
-            <li><a href="{{ "service/" | relLangURL }}">Services</a></li>
-            <li><a href="{{ "industry/" | relLangURL }}">Industries</a></li>
-            <li><a href="{{ "contact/" | relLangURL }}">Contact</a></li>
-
+            {{ range site.Menus.main }}
+            {{ if not .HasChildren }}
+            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+            {{ end }}
           </ul>
         </div>
-
-        <!-- Subscribe -->
+        <!-- subscribe form -->
         {{ with site.Params.subscription }}
         {{ if .enable }}
         <div class="col-lg-3">
@@ -112,7 +74,6 @@
       </div>
     </div>
   </div>
-
   <!-- copyright -->
   <div class="pt-4 pb-3 position-relative">
     <div class="container">
@@ -121,27 +82,25 @@
           <p class="text-white text-center text-md-start">
             {{ .Site.Params.copyright }}
             {{ with .Site.Params.theme_copyright }}
-              | Theme by
-              <a target="_blank" rel="noopener noreferrer" href="https://gethugothemes.com/">GetHugoThemes</a>
+            | Theme by
+            <a target="_blank" rel="noopener noreferrer" href="https://gethugothemes.com/">GetHugoThemes</a>
             {{ end }}
           </p>
         </div>
         <div class="col-lg-6 col-md-7">
           <ul class="list-inline text-center text-md-end">
             {{ range site.Menus.footer }}
-              <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                <a class="font-secondary text-white" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-              </li>
+            <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
+              <a class="font-secondary text-white" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            </li>
             {{ end }}
           </ul>
         </div>
       </div>
     </div>
-
-    <!-- Back to top -->
+    <!-- back to top -->
     <button class="back-to-top" aria-label="scroll to top">
       <i class="ti-angle-up"></i>
     </button>
-
   </div>
 </footer>

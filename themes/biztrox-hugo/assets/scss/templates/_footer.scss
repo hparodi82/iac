@@ -6,7 +6,7 @@
   background: transparent;
   border: 1px solid $white;
   text-align: center;
-  transition: 0.2s ease;
+  transition: .2s ease;
   display: inline-block;
 
   i {
@@ -43,7 +43,7 @@
       color: $white;
       font-family: $font-secondary;
       font-size: 14px;
-      transition: 0.2s ease;
+      transition: .2s ease;
       display: block;
 
       &:hover {
@@ -74,13 +74,8 @@
   border-radius: 50%;
   color: $white;
   background: $color-primary;
-  transition: all linear 0.2s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .ti-arrow-right {
-    line-height: 0;
-  }
+  transition: all linear .2s;
+
   &:hover {
     padding-left: 15px;
   }
@@ -103,7 +98,7 @@
   border: 1px solid #454547;
   text-align: center;
   display: block;
-  transition: 0.2s ease;
+  transition: .2s ease;
 
   i {
     line-height: 50px;

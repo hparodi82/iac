@@ -13,7 +13,7 @@
 			</div>
 			{{ "<!-- philosophy image -->" | safeHTML }}
 			<div class="col-lg-5 align-self-center order-1 order-lg-2 mb-md-50">
-				{{ partial "image.html" (dict "Src" .image "Alt" "philosophy-image" "Class" `w-75`) }}
+				{{ partial "image.html" (dict "Src" .image "Alt" "philosophy-image" "Class" `w-100`) }}
 			</div>
 		</div>
 	</div>
@@ -29,7 +29,7 @@
 	<div class="container">
 		<div class="row rounded bg-secondary">
 			{{ "<!-- ceo image -->" | safeHTML }}
-			<div class="col-lg-5 rounded-start ceo-image" {{ partial `bg-image.html` (dict `Src` "images/banner/home/austintx-banner-1.jpg" ) |
+			<div class="col-lg-5 rounded-start ceo-image" {{ partial `bg-image.html` (dict `Src` "images/about/ceo.jpg" ) |
 				safeHTMLAttr }}></div>
 			<div class="col-lg-7">
 				{{ "<!-- ceo content -->" | safeHTML }}
