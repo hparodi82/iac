@@ -34,6 +34,7 @@ steps:
       KUBECONFIG_DATA:
         from_secret: kubeconfig
     commands:
+      - echo "Secret length is $(printenv KUBECONFIG_DATA | wc -c)"
       - mkdir -p ~/.kube
       - printenv KUBECONFIG_DATA > ~/.kube/config
       - cat ~/.kube/config
