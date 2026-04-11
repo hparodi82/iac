@@ -35,5 +35,5 @@ steps:
         from_secret: kubeconfig
     commands:
       - mkdir -p ~/.kube
-      - echo "$KUBECONFIG_DATA" > ~/.kube/config
+      - printenv KUBECONFIG_DATA > ~/.kube/config
       - kubectl rollout restart deployment/hugo-site
