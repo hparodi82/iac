@@ -43,3 +43,16 @@ steps:
     when:
       event: [push, manual]
       branch: main
+      
+  deploy-k3s:
+    image: bitnami/kubectl:latest
+    when:
+      event: [push, manual]
+      branch: main
+    environment:
+      KUBECONFIG_DATA:
+        from_secret: kubeconfig
+    commands:
+      - mkdir -p ~/.kube
+      - echo "$KUBECONFIG_DATA" > ~/.kube/config
+      - kubectl rollout restart deployment/hugo-site
