@@ -36,5 +36,4 @@ steps:
     commands:
       - mkdir -p ~/.kube
       - printenv KUBECONFIG_DATA > ~/.kube/config
-      - cat ~/.kube/config | grep server
       - kubectl rollout restart deployment/hugo-site
