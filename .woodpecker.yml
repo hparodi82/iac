@@ -13,8 +13,8 @@ steps:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     commands:
-      - docker build -t 192.168.30.11:8080/hugo-site/hugo-site:latest .
       - docker login http://192.168.30.11:8080 -u $HARBOR_USER -p $HARBOR_PASS
+      - docker build -t 192.168.30.11:8080/hugo-site/hugo-site:latest .
       - docker push 192.168.30.11:8080/hugo-site/hugo-site:latest
     environment:
       HARBOR_USER:
@@ -25,25 +25,6 @@ steps:
       event: [push, manual]
       branch: main
 
-  deploy:
-    image: docker:cli
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    commands:
-      - docker login http://192.168.30.11:8080 -u $HARBOR_USER -p $HARBOR_PASS
-      - docker pull 192.168.30.11:8080/hugo-site/hugo-site:latest
-      - docker stop hugo-site || true
-      - docker rm hugo-site || true
-      - docker run -d --name hugo-site --restart always -p 80:80 192.168.30.11:8080/hugo-site/hugo-site:latest
-    environment:
-      HARBOR_USER:
-        from_secret: harbor_username
-      HARBOR_PASS:
-        from_secret: harbor_password
-    when:
-      event: [push, manual]
-      branch: main
-      
   deploy-k3s:
     image: bitnami/kubectl:latest
     when:
