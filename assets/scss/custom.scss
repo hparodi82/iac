@@ -1,4 +1,53 @@
 /* ============================================
+   UTPTECH – Slider Heading Text Color
+   ============================================ */
+/* ============================================
+   UTPTECH – Top Header Contact Info Colors
+   ============================================ */
+
+/* Email link → match phone number (primary navy) */
+.top-header li:first-child a {
+  color: #041E42 !important;
+}
+
+/* "Call Us Now:" label → white */
+.top-header li:last-child a {
+  color: #ffffff !important;
+}
+
+/* Phone number span → keep primary navy */
+.top-header li:last-child a span {
+  color: #041E42 !important;
+}
+
+.hero-slider .hero-content .btn-outline {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+.hero-slider .hero-content .btn-outline:hover {
+  background: #ffffff !important;
+  color: #222222 !important;
+  border-color: #ffffff !important;
+}
+
+.hero-slider .hero-content h1,
+.hero-slider .hero-content h2,
+.hero-slider .hero-content h3,
+.hero-slider .hero-content h4,
+.hero-slider .hero-content h5,
+.hero-slider .hero-content h6,
+.hero-slider .hero-content .h1,
+.hero-slider .hero-content .h2,
+.hero-slider .hero-content .h3,
+.hero-slider .hero-content .h4,
+.hero-slider .hero-content .h5,
+.hero-slider .hero-content .h6,
+.hero-slider .hero-content p {
+  color: #ffffff !important;
+}
+
+/* ============================================
    UTPTECH - Uniform Service Card Image Styling
    ============================================ */
 .card-img-wrapper img.card-img-top {
@@ -177,13 +226,12 @@
 .navbar-brand img,
 .header-logo img {
   display: block;
-  height: 176px;       /* tweak between 60–80px to taste */
-  width: 225px;        /* keep proportions correct */
+  height: 176px;
+  width: 225px;
   max-height: 176px;
-  max-width: 225px;    /* don’t let other rules shrink it */
+  max-width: 225px;
   margin: 0;
   padding: 0;
-  /* optional: subtle shadow, remove if you don’t like it */
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.35));
 }
 
@@ -193,6 +241,22 @@
   transform: translateY(-1px);
   transition: transform 0.2s ease;
 }
+/* ============================================
+   UTPTECH – About Page Spacing
+   ============================================ */
+
+/* Consistent line height for about page body text */
+.about-page p,
+.ceo-section p {
+  line-height: 1.85;
+}
+
+/* Softer divider inside CEO card */
+.ceo-image {
+  background-size: cover !important;
+  background-position: center top !important;
+}
+
 /* ============================================
    UTPTECH – Standardized Page Banner Heroes
    Applies to: About, Services, Industries, etc.

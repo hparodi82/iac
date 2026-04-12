@@ -1,32 +1,38 @@
 ---
 title: "Structured Cabling"
 draft: false
-date: 2018-09-29T11:54:02+06:00
-description: "This is meta description"
-image: images/service/service-5.jpg
-bg_image: images/background/page-title.jpg
-icon: ti-more
+date: 2025-12-01T08:00:00+06:00
+description: "Certified structured cabling installations for voice, data, and network infrastructure — clean, organized, and built to last."
+image: images/structured-cabling/structure-cabling-1.jpg
+bg_image: images/banner/services/technology/banner-technology-001.jpg
+icon: ti-plug
 brochure: "#"
-regularDay: Sun-Tues
+regularDay: Mon-Fri
 regularTime: 08.00am - 06.00pm
-halfDay: Thursday
-halfTime: 08.00am - 01.00pm
-offDay: Friday
+halfDay: Saturday
+halfTime: 09.00am - 01.00pm
+offDay: Sunday
 type: service
 sidebar_group: "technology"
 ---
 
-### Marketing Oriented To The Targated Customers
+### The Foundation of Every Reliable Network
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+At **Up To Par Technologies**, our Structured Cabling services provide the physical backbone your IT infrastructure depends on. From new construction to retrofits, we design and install clean, certified cabling systems that support your voice, data, and network needs — now and as you grow.
 
-> Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis.
+**Our Cabling Services Include:**
 
-1. Business Services
-2. Audit & Assurance
-3. IT Control Solutions
+- Cat5e, Cat6, and Cat6A data cabling
+- Fiber optic installation and termination
+- Voice and telephone cabling
+- Server room and data center cabling
+- Patch panel installation and cable management
+- Network rack design and build-out
 
-#### Marketing Improvement Strategy
+#### Certified. Clean. Built to Last.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+A poorly installed cabling system creates years of headaches — slow speeds, frequent outages, and expensive troubleshooting. Our certified technicians follow industry standards to deliver installations that are properly labeled, neatly organized, and tested to perform at full rated speed.
+
+> "The infrastructure behind your network matters as much as the technology running on it."
+
+Contact Up To Par Technologies to schedule a cabling assessment for your facility.

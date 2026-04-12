@@ -11,6 +11,7 @@ halfDay: Sunday
 halfTime: 08.00am - 12.00pm
 offDay: None
 type: service
+draft: true
 ---
 
 ### Protecting Lives & Property with Reliable Fire Safety Solutions

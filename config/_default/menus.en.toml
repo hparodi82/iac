@@ -16,23 +16,53 @@ weight = 2
   weight = 3
   identifier = "services"
 
+  # [[main]]
+  #   parent = "services"
+  #   name   = "Pressure Washing"
+  #   url    = "/english/service/pressure-washing/pressure-washing/"
+  #   weight = 1
+
+  # [[main]]
+  #   parent = "services"
+  #   name   = "Fire & Safety"
+  #   url    = "/english/service/fire-safety/fire-safety/"
+  #   weight = 2
+
   [[main]]
     parent = "services"
-    name   = "Pressure Washing"
-    url    = "/english/service/pressure-washing/pressure-washing/"
+    name   = "Managed IT Services"
+    url    = "service/technology/managed_it/"
     weight = 1
 
   [[main]]
     parent = "services"
-    name   = "Fire & Safety"
-    url    = "/english/service/fire-safety/fire-safety/"
+    name   = "IT Consulting"
+    url    = "service/technology/it_consulting/"
     weight = 2
-    
+
   [[main]]
     parent = "services"
-    name   = "Technology Solutions & Structured Cabling"
-    url    = "/english/service/technology/technology/"
+    name   = "Structured Cabling"
+    url    = "service/technology/structured_cabling/"
     weight = 3
+
+  [[main]]
+    parent = "services"
+    name   = "Smart Business & Home Office Setup"
+    url    = "service/technology/mit-smart-setup/"
+    weight = 4
+
+  [[main]]
+    parent = "services"
+    name   = "VoIP Phone Systems"
+    url    = "service/technology/mit-voip/"
+    weight = 5
+
+  [[main]]
+    parent = "services"
+    name   = "IP Camera & Surveillance"
+    url    = "service/technology/mit-ip-cameras/"
+    weight = 6
 
 [[main]]
   name  = "Industries"

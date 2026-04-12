@@ -1,0 +1,130 @@
+<footer class="bg-secondary">
+  <div class="py-100 border-bottom" style="border-color: #454547 !important">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <!-- col 1: logo + tagline + description + social -->
+        <div class="col-lg-4 col-md-12 mb-5 mb-lg-0">
+          <div class="text-center text-md-start">
+            <a class="mb-30 d-inline-block" href="{{ site.BaseURL | relLangURL }}">
+              {{ if site.Params.logo_footer }}
+              {{ partial "image.html" (dict "Src" .Site.Params.logo_footer "Alt" "Up To Par Technologies" "Width" .Site.Params.logo_footer_width) }}
+              {{ else }}
+              {{ site.Title }}
+              {{ end }}
+            </a>
+            <p class="text-white mb-2" style="font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; opacity: 0.7;">Serving Businesses Across Central Texas</p>
+            {{ with site.Params.footer_content }}
+            <p class="text-white mb-30" style="font-size: 0.9rem; line-height: 1.7;">{{ . | markdownify }}</p>
+            {{ end }}
+            <ul class="list-inline mt-3">
+              {{ range site.Params.social }}
+              <li class="list-inline-item mb-2">
+                <a class="social-icon-outline" href="{{ .link | safeURL }}" aria-label="{{ .title }}">
+                  <i class="{{ .icon }}"></i>
+                </a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+
+        <!-- col 2: services -->
+        <div class="col-lg-2 col-md-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-4">{{ i18n "services" }}</h4>
+          <ul class="footer-links">
+            {{ $footerServices := slice
+              "service/technology/managed_it"
+              "service/technology/it_consulting"
+              "service/technology/structured_cabling"
+              "service/technology/mit-smart-setup"
+              "service/technology/mit-voip"
+              "service/technology/mit-ip-cameras"
+            }}
+            {{ range $footerServices }}
+            {{ with site.GetPage . }}
+            <li><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+
+        <!-- col 3: industries -->
+        <div class="col-lg-2 col-md-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-4">Industries</h4>
+          <ul class="footer-links">
+            {{ range site.Menus.main }}
+            {{ if eq .Identifier "industries" }}
+            {{ range .Children }}
+            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+
+        <!-- col 4: contact info + quick links -->
+        <div class="col-lg-3 col-md-4 mb-5 mb-md-0">
+          <h4 class="text-white mb-4">Contact Us</h4>
+          <ul class="footer-links mb-4">
+            {{ with site.Params.contact_info.mobile }}
+            <li>
+              <a href="tel:{{ . | replaceRE `[^0-9+]` `` }}">
+                <i class="ti-mobile me-2"></i>{{ . }}
+              </a>
+            </li>
+            {{ end }}
+            {{ with site.Params.contact_info.email }}
+            <li>
+              <a href="mailto:{{ . }}">
+                <i class="ti-email me-2"></i>{{ . }}
+              </a>
+            </li>
+            {{ end }}
+            {{ with site.Params.contact_info.address }}
+            <li>
+              <span class="text-white opacity-75">
+                <i class="ti-location-pin me-2"></i>{{ . }}
+              </span>
+            </li>
+            {{ end }}
+          </ul>
+          <h4 class="text-white mb-4">Quick Links</h4>
+          <ul class="footer-links">
+            {{ range site.Menus.main }}
+            {{ if not .HasChildren }}
+            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- copyright bar -->
+  <div class="pt-4 pb-3 position-relative">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-5">
+          <p class="text-white text-center text-md-start" style="opacity: 0.8; font-size: 0.9rem;">
+            &copy; {{ now.Year }} Up To Par Technologies. All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-7">
+          <ul class="list-inline text-center text-md-end">
+            {{ range site.Menus.footer }}
+            <li class="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
+              <a class="font-secondary text-white" href="{{ .URL | relLangURL }}" style="opacity: 0.8; font-size: 0.9rem;">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <button class="back-to-top" aria-label="scroll to top">
+      <i class="ti-angle-up"></i>
+    </button>
+  </div>
+</footer>

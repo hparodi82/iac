@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* ============================================
+   UTPTECH – Slider Heading Text Color
+   ============================================ */
+/* ============================================
+   UTPTECH – Top Header Contact Info Colors
+   ============================================ */
+/* Email link → match phone number (primary navy) */
+.top-header li:first-child a {
+  color: #041E42 !important; }
+
+/* "Call Us Now:" label → white */
+.top-header li:last-child a {
+  color: #ffffff !important; }
+
+/* Phone number span → keep primary navy */
+.top-header li:last-child a span {
+  color: #041E42 !important; }
+
+.hero-slider .hero-content .btn-outline {
+  color: #ffffff !important;
+  border-color: #ffffff !important; }
+
+.hero-slider .hero-content .btn-outline:hover {
+  background: #ffffff !important;
+  color: #222222 !important;
+  border-color: #ffffff !important; }
+
+.hero-slider .hero-content h1,
+.hero-slider .hero-content h2,
+.hero-slider .hero-content h3,
+.hero-slider .hero-content h4,
+.hero-slider .hero-content h5,
+.hero-slider .hero-content h6,
+.hero-slider .hero-content .h1,
+.hero-slider .hero-content .h2,
+.hero-slider .hero-content .h3,
+.hero-slider .hero-content .h4,
+.hero-slider .hero-content .h5,
+.hero-slider .hero-content .h6,
+.hero-slider .hero-content p {
+  color: #ffffff !important; }
+
+/* ============================================
+   UTPTECH - Uniform Service Card Image Styling
+   ============================================ */
+.card-img-wrapper img.card-img-top {
+  width: 100%;
+  /* fill the card horizontally */
+  height: 260px;
+  /* consistent vertical size across all cards */
+  object-fit: cover;
+  /* crops while keeping aspect ratio */
+  border-radius: 8px;
+  /* optional - soft corners for a clean look */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* hover effect */ }
+
+.card-img-wrapper img.card-img-top:hover {
+  transform: scale(1.03);
+  /* subtle zoom on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); }
+
+/* ============================================
+   UTPTECH — Standardized Homepage Slider Images
+   ============================================ */
+.hero-slider-item {
+  width: 100%;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-color: #081529;
+  /* fallback fill so transparent PNGs don't show white bars */
+  height: 560px !important;
+  /* desktop/tablet height */
+  display: flex;
+  align-items: center; }
+
+/* Make sure the whole slider area has the same fallback color while images load */
+.hero-slider {
+  background-color: #081529; }
+
+.hero-slider .swiper-slide {
+  background-color: #081529; }
+
+/* Mobile: same behavior, just a bit shorter */
+@media (max-width: 768px) {
+  .hero-slider-item {
+    height: 420px !important;
+    /* adjust if you want taller/shorter */ }
+  /* Optional: slightly smaller text so it fits nicely */
+  .hero-content h1 {
+    font-size: 1.9rem;
+    line-height: 1.2; }
+  .hero-content p {
+    font-size: 0.95rem; } }
+
+/* UTPTECH — hide breadcrumbs inside hero/page-title banners */
+.page-title ol.breadcrumb,
+.page-title .breadcrumb {
+  display: none !important; }
+
+/* Nested service submenu under Technology & Structured Cabling */
+.service-menu .service-submenu a {
+  padding-left: 2.5rem;
+  font-size: 0.95rem; }
+
+.service-menu .service-submenu .active {
+  font-weight: 600; }
+
+/* Hide Technology submenu until pages are ready */
+.service-submenu {
+  display: none !important; }
+
+/* ============================================
+   UTPTECH - Industry Cards (Equal Height)
+   ============================================ */
+/* Grid wrapper */
+.industry-grid {
+  margin-top: 1rem; }
+
+/* Each Bootstrap column becomes a flex container
+   so its child card can stretch to the tallest row height */
+.industry-grid > [class*="col-"] {
+  display: flex; }
+
+/* The card fills the column and uses flexbox internally */
+.industry-card {
+  position: relative;
+  flex: 1 1 auto;
+  /* stretch to match tallest card in the row */
+  padding: 1.75rem 1.5rem;
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease, background-color 0.22s ease; }
+
+/* Hover state */
+.industry-card:hover,
+.industry-card:focus {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+  border-color: #e84444;
+  /* your accent color */
+  background-color: #ffffff;
+  text-decoration: none; }
+
+/* Inner content */
+.industry-card-body {
+  max-width: 18rem;
+  margin: 0 auto;
+  text-align: center; }
+
+.industry-card-title {
+  font-weight: 700;
+  color: #222; }
+
+.industry-card-text {
+  font-size: 0.9rem;
+  line-height: 1.5; }
+
+/* Slightly tighter cards on very small screens */
+@media (max-width: 575.98px) {
+  .industry-card {
+    padding: 1.25rem 1.2rem; } }
+
+/* Slightly tighter cards on very small screens */
+@media (max-width: 575.98px) {
+  .industry-card {
+    padding: 1.25rem 1.2rem; } }
+
+/* =========================================
+   UTPTECH – Header Logo Fix
+   ========================================= */
+/* Reset the brand container so it doesn't act like a big white card */
+.navbar-brand,
+.header-logo {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  box-shadow: none;
+  border: none; }
+
+/* Make the brand area flex so logo is vertically centered in the header */
+.navbar .navbar-brand,
+.header-logo {
+  display: flex;
+  align-items: center; }
+
+/* Actual logo image sizing */
+.navbar-brand img,
+.header-logo img {
+  display: block;
+  height: 176px;
+  width: 225px;
+  max-height: 176px;
+  max-width: 225px;
+  margin: 0;
+  padding: 0;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.35)); }
+
+/* Light hover nudge (optional) */
+.navbar-brand img:hover,
+.header-logo img:hover {
+  transform: translateY(-1px);
+  transition: transform 0.2s ease; }
+
+/* ============================================
+   UTPTECH – About Page Spacing
+   ============================================ */
+/* Consistent line height for about page body text */
+.about-page p,
+.ceo-section p {
+  line-height: 1.85; }
+
+/* Softer divider inside CEO card */
+.ceo-image {
+  background-size: cover !important;
+  background-position: center top !important; }
+
+/* ============================================
+   UTPTECH – Standardized Page Banner Heroes
+   Applies to: About, Services, Industries, etc.
+   ============================================ */
+.page-title {
+  width: 100%;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  /* Controls the “banner” height */
+  min-height: 260px;
+  /* base height */
+  display: flex;
+  align-items: center;
+  /* vertically center text */ }
+
+.page-title .container {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+/* Tablet / mobile – slightly shorter but still clean */
+@media (max-width: 991.98px) {
+  .page-title {
+    min-height: 220px; }
+  .page-title .container {
+    padding-top: 60px;
+    padding-bottom: 60px; } }
+
+@media (max-width: 575.98px) {
+  .page-title {
+    min-height: 200px; }
+  .page-title .container {
+    padding-top: 45px;
+    padding-bottom: 45px; } }

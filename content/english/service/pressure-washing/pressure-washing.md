@@ -11,6 +11,7 @@ halfDay: Sunday
 halfTime: 08.00am - 12.00pm
 offDay: None
 type: service
+draft: true
 ---
 
 ### Clean. Restore. Protect.

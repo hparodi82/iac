@@ -27,10 +27,10 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 custom_script = ""
 # copyright
 copyright = "Copyright by Up to Par Technologies"
-theme_copyright = true
+theme_copyright = false
 
 # footer content
-footer_content = "At Up To Par Technologies, we bring together technology, safety, and facility expertise under one trusted name. From Managed IT and Structured Cabling to Fire Extinguisher Inspections and Pressure Washing, we help businesses stay connected, compliant, and professional. Our mission is to provide dependable solutions that empower organizations to operate efficiently, safely, and confidently across every industry we serve."
+footer_content = "At Up To Par Technologies, we are your trusted technology partner across Texas. From Managed IT and Structured Cabling to VoIP, IP Surveillance, and Smart Office Solutions, we help businesses stay connected, secure, and running at full speed. Our mission is simple: deliver reliable, proactive technology services that let you focus on your business."
 
 # Preloader
 [preloader]
