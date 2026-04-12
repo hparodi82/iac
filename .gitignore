@@ -4,7 +4,6 @@ Thumbs.db
 
 # Hugo build artifacts
 /public/
-/resources/
 /.hugo_build.lock
 /hugo_stats.json
 
