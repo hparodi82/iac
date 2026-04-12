@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://utptech.net/"
+baseURL = "https://www.utptech.net/"
 title = "Up to Par Technologies"
 languageCode = "en-us"
 publishDir = "public"
