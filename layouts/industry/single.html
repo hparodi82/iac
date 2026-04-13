@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+{{ "<!-- industry single -->" | safeHTML }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+
+      {{ "<!-- sidebar -->" | safeHTML }}
+      <aside class="col-lg-4 order-lg-1 order-2">
+        <div class="mb-3">
+          <a href="{{ `industry/` | relLangURL }}" class="btn btn-primary w-100">← Back to Industries</a>
+        </div>
+        <h5 class="mb-3">Industries We Serve</h5>
+        <ul class="service-menu ps-0 border rounded mb-50 overflow-hidden">
+          {{ range site.Menus.main }}
+          {{ if eq .Identifier "industries" }}
+          {{ range .Children }}
+          <li class="border-bottom-not-last">
+            <a class="d-block font-primary text-dark p-4" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </ul>
+
+        <script>
+          (function () {
+            const links = document.getElementsByTagName('a')
+            const currentUrl = location.href
+            for (const link of links) {
+              if (link.href === currentUrl) {
+                link.classList.add('active')
+              }
+            }
+          }())
+        </script>
+
+        <div class="mb-50">
+          <h3 class="mb-20 h5">{{ i18n "free_consultation" }}</h3>
+          <form action="{{ site.Params.contact_form_action | safeURL }}" class="row">
+            <div class="col-lg-12">
+              <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+            </div>
+            <div class="col-lg-12">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="col-lg-12">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="col-lg-12">
+              <textarea name="question" id="question" class="form-control p-2" placeholder="Your Question Here..." style="height: 150px;"></textarea>
+            </div>
+            <div class="col-lg-12">
+              <button class="btn btn-primary" type="submit">{{ i18n "submit" }}</button>
+            </div>
+          </form>
+        </div>
+      </aside>
+
+      {{ "<!-- industry content -->" | safeHTML }}
+      <div class="col-lg-8 order-lg-2 order-1">
+        {{ partial "image.html" (dict "Src" .Params.bg_image "Alt" .Title "Class" `w-100 mb-50 rounded-top`) }}
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

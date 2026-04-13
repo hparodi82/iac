@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+{{ "<!-- industry list -->" | safeHTML }}
+<section class="section">
+  <div class="container">
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-8 text-center">
+        <span class="section-title-sm h5">What We Support</span>
+        <h2 class="section-title section-title-border">Industries We Serve</h2>
+        <p class="text-muted">From healthcare and education to hospitality and enterprise — we deliver technology solutions tailored to the unique demands of every industry we serve.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-md-6 mb-4">
+        <a href="{{ .Permalink }}" class="text-decoration-none">
+          <div class="industry-card h-100">
+            {{ "<!-- card image -->" | safeHTML }}
+            <div class="industry-card-img">
+              {{ partial "image.html" (dict "Src" .Params.bg_image "Alt" .Title "Class" `w-100`) }}
+            </div>
+            {{ "<!-- card body -->" | safeHTML }}
+            <div class="industry-card-content p-4">
+              <div class="d-flex align-items-center mb-3">
+                {{ with .Params.icon }}
+                <div class="industry-icon me-3">
+                  <i class="{{ . }}"></i>
+                </div>
+                {{ end }}
+                <h5 class="mb-0 text-dark fw-bold">{{ .Title }}</h5>
+              </div>
+              <p class="text-muted mb-3" style="font-size: 0.9rem; line-height: 1.6;">{{ .Params.description }}</p>
+              <span class="text-primary fw-semibold" style="font-size: 0.85rem;">Learn More →</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+
+  </div>
+</section>
+
+{{ end }}
