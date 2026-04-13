@@ -2,51 +2,62 @@
 title: "Hospitality & Hotel Solutions"
 date: 2025-10-31T14:20:00+06:00
 bg_image: images/banner/industry/hospitality/hospitality-001.png
-description: "Technology, safety, and facility solutions designed for hotels, resorts, and hospitality venues."
+description: "Managed IT, guest Wi-Fi, Structured Cabling, VoIP, and IP Surveillance solutions built for hotels, resorts, and hospitality venues across Texas."
 url: "/industry/hospitality/"
 type: "industry"
+icon: "ti-home"
 ---
 
-### Comfort. Safety. Connectivity.
+### Technology That Elevates the Guest Experience.
 
-At **Up To Par Technologies**, we support **hotels, resorts, lodges, event centers, and hospitality facilities** with integrated technology, fire-safety, and facility maintenance solutions.  
-Our goal is to help you deliver an exceptional guest experience — with reliable networks, safe environments, and clean, welcoming spaces.
-
----
-
-## 🏨 Our Core Services for Hospitality & Hotels
-
-- 💻 **Managed IT & High-Density Guest Wi-Fi**  
-  Enterprise-grade network design for guest rooms, lobbies, conference halls, and outdoor areas — including bandwidth management and 24/7 support.
-
-- 🧵 **Structured Cabling & Low-Voltage Infrastructure**  
-  Professional CAT6/fiber cabling for front desk systems, IPTV, cameras, access points, smart-room systems, card-key readers, and back-office networks.
-
-- 🔥 **Fire Extinguisher & Life-Safety Compliance**  
-  NFPA-certified extinguisher servicing, emergency lighting inspections, and life-safety compliance for hotels and hospitality buildings.
-
-- 💦 **Exterior Power Washing & Property Maintenance**  
-  Cleaning for walkways, pool decks, building exteriors, porte-cochère areas, parking structures, patios, and guest-facing entrances.
-
-- 📹 **Security Camera & Access Control Systems**  
-  Full surveillance coverage for hallways, elevators, perimeter areas, parking lots, lobbies, and restricted staff areas — with secure remote monitoring.
+In hospitality, technology is invisible when it works — and impossible to ignore when it doesn't. Guests expect fast, reliable Wi-Fi. Staff depend on stable networks for PMS, POS, and communication systems. At **Up To Par Technologies**, we design and manage the technology infrastructure that keeps hotels, resorts, and event venues operating smoothly and delivering the experience guests remember for the right reasons.
 
 ---
 
-## 🧠 Why Hospitality Leaders Choose Up To Par Technologies
+### Technology Services for Hospitality & Hotels
 
-- Experienced with Hotels, Resorts & Large Hospitality Campuses  
-- Certified Network, Fire-Safety & Facility Professionals  
-- Fast Response Times & Flexible After-Hours Scheduling  
-- Clean, Organized, Code-Compliant Installations  
-- End-to-End Support: IT, Safety, Facility Upkeep & More
+**Managed IT & High-Density Guest Wi-Fi**
+Enterprise-grade wireless network design for guest rooms, lobbies, pool areas, conference halls, and outdoor spaces — with bandwidth management and 24/7 monitoring to ensure consistent performance for every guest.
+
+**Structured Cabling & Low-Voltage Infrastructure**
+Certified CAT6 and fiber cabling for front desk systems, IPTV, in-room entertainment, access point backhaul, smart-room systems, POS terminals, and back-office networks — professionally installed and documented.
+
+**VoIP Phone Systems**
+Modern IP hotel phone systems with room-to-desk routing, wake-up call automation, guest messaging integration, and staff communication features — replacing legacy analog systems with a cost-effective, manageable platform.
+
+**IP Camera & Access Control**
+Full-property surveillance coverage for hallways, elevators, lobby areas, parking structures, and restricted staff zones — with smart keycard door access and centralized security management.
+
+**Smart Room & Conference AV**
+In-room automation, digital signage throughout the property, and fully integrated conference room AV for meetings and events — all managed remotely and designed for ease of use by staff and guests.
 
 ---
 
-### 🛎️ Deliver a Five-Star Guest Experience  
-[📞 Contact Us Today](/contact/) — Let our team design a reliable, safe, and high-performance infrastructure tailored for your hospitality property.
+### Platforms & Vendors We Work With
+
+| Category | Partners & Platforms |
+|---|---|
+| Property Management | Oracle OPERA, Cloudbeds, Maestro PMS, Mews |
+| Guest Wi-Fi | Cisco Meraki, Ruckus, Ubiquiti, Aruba |
+| VoIP & Guest Phones | Cisco, Mitel, RingCentral, Nuvola |
+| POS & Food & Beverage | Toast, Oracle MICROS, Lightspeed |
+| Surveillance | Axis, Hikvision, Milestone, Genetec |
+| Access Control | ASSA ABLOY, Dormakaba, HID Global |
+| Microsoft Ecosystem | Microsoft 365, Teams, Azure |
+| Backup & Recovery | Datto, Veeam, Acronis |
 
 ---
 
-**Service Area:**  
-Austin • San Antonio • Rio Grande Valley • Central Texas
+### Why Hospitality Leaders Choose Up To Par Technologies
+
+- Experience with full-property hotel and resort technology deployments
+- High-density Wi-Fi design for large guest volumes and mixed-use spaces
+- After-hours scheduling to minimize guest disruption during installations
+- Proactive monitoring so issues are resolved before guests notice
+- Single partner for networking, cabling, VoIP, and physical security
+
+---
+
+Ready to deliver a seamless guest experience backed by reliable technology? [Contact us today](/contact/) for a free property assessment and consultation.
+
+**Service Area:** Austin · Cedar Park · Leander · Round Rock · San Antonio · Central Texas

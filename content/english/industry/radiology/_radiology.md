@@ -2,51 +2,62 @@
 title: "Radiology & Imaging Solutions"
 date: 2025-10-31T14:00:00+06:00
 bg_image: images/banner/industry/radiology/radiology-001.jpg
-description: "Technology, safety, and infrastructure services built for diagnostic imaging facilities."
+description: "High-performance Managed IT, PACS-ready networking, Structured Cabling, and IP Surveillance solutions built for radiology and imaging centers across Texas."
 url: "/industry/radiology/"
+type: "industry"
+icon: "ti-image"
 ---
 
-### Precision. Connectivity. Compliance.
+### Precision Infrastructure for Diagnostic Imaging.
 
-At **Up To Par Technologies**, we provide secure, reliable, and code-compliant technology and facility solutions for **radiology and imaging centers**.  
-From high-speed data cabling to fire-safety systems and building maintenance, we ensure your imaging operations run with precision, safety, and efficiency.
-
----
-
-## 🩻 Our Core Services for Imaging Facilities
-
-- 💻 **IT Infrastructure & Network Performance**  
-  Design, deploy, and maintain robust networks capable of handling large medical image files, PACS systems, and secure inter-office connectivity.
-
-- 🧵 **Structured Cabling & Fiber Installations**  
-  Certified CAT6 and fiber cabling for MRI, CT, and X-ray rooms — engineered for EMI resistance and compliance with medical-grade standards.
-
-- 🔥 **Fire Safety & Life-Safety Systems**  
-  Installation and annual inspections of fire extinguishers, suppression systems, and emergency lighting for healthcare environments.
-
-- 💦 **Facility Power Washing & Maintenance**  
-  Cleaning and upkeep of exterior surfaces, parking areas, and building exteriors to maintain a professional and sanitary image.
-
-- 📹 **Security & Access Control Integration**  
-  Surveillance and access systems that safeguard patient data, expensive imaging equipment, and restricted lab areas.
+Radiology and imaging centers operate some of the most demanding IT environments in healthcare — large DICOM files, real-time PACS access, tightly integrated diagnostic hardware, and strict HIPAA requirements. At **Up To Par Technologies**, we design and manage the infrastructure that keeps your imaging operations running at peak performance without interruption.
 
 ---
 
-## ⚙️ Why Radiology Facilities Choose Up To Par Technologies
+### Technology Services for Imaging Facilities
 
-- HIPAA & OSHA-Compliant Service Standards  
-- Certified Technicians with Healthcare Experience  
-- EMI-Safe Cabling & Shielded Installation Practices  
-- Scalable Infrastructure for Multi-Site Imaging Networks  
-- Local, Reliable, and Responsive Support  
+**Managed IT & High-Performance Networking**
+Network design and management built around the demands of PACS systems, DICOM transfers, and multi-modality imaging workflows. We ensure low latency, high throughput, and consistent uptime across your entire facility.
+
+**Structured Cabling & Shielded Infrastructure**
+Certified fiber and CAT6 cabling for MRI suites, CT rooms, X-ray and fluoroscopy areas, and reading rooms — engineered for EMI resistance and compliance with medical-grade installation standards.
+
+**VoIP Phone Systems**
+Modern IP communication platforms with call routing, secure voicemail, and integration with radiology information systems — keeping radiologists, technologists, and referring physicians connected.
+
+**IP Camera & Access Control**
+Surveillance and badge-based access control protecting imaging equipment, patient areas, server rooms, and controlled substance storage.
+
+**Smart Office & Reading Room Setup**
+Multi-display reading room configurations, automated lighting for diagnostic environments, and AV integration for case review and collaboration.
 
 ---
 
-### 🩺 Build a Smarter, Safer Imaging Facility
-[📞 Contact Us Today](/contact/) — our specialists can design a secure, compliant, and high-performance infrastructure for your imaging center.  
-Stay connected. Stay compliant. Stay Up To Par.
+### Platforms & Vendors We Work With
+
+| Category | Partners & Platforms |
+|---|---|
+| PACS / RIS | Sectra, Intelerad, Ambra Health, Philips Vue PACS, GE Centricity |
+| Imaging Manufacturers | GE HealthCare, Siemens Healthineers, Philips, Canon Medical |
+| Microsoft Ecosystem | Microsoft 365, Azure, Teams, Intune |
+| Networking | Cisco Meraki, Fortinet, Ubiquiti |
+| VoIP | RingCentral, 8x8, Cisco |
+| Security & EDR | CrowdStrike, SentinelOne, Malwarebytes |
+| Backup & Recovery | Datto, Veeam, Acronis |
+| Surveillance | Axis, Hikvision, Genetec |
 
 ---
 
-**Service Area:**  
-Austin • San Antonio • Rio Grande Valley • Central Texas
+### Why Imaging Centers Choose Up To Par Technologies
+
+- Deep experience with PACS, DICOM, and high-bandwidth medical networking
+- EMI-safe cabling practices for MRI and sensitive imaging environments
+- HIPAA-aware technicians and documentation standards
+- Proactive monitoring with fast on-site response
+- Flat-rate managed plans with no surprise invoices
+
+---
+
+Ready to optimize your imaging center's infrastructure? [Contact us today](/contact/) for a free network assessment and consultation.
+
+**Service Area:** Austin · Cedar Park · Leander · Round Rock · San Antonio · Central Texas
