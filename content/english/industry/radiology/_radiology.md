@@ -35,6 +35,8 @@ Multi-display reading room configurations, automated lighting for diagnostic env
 
 ### Platforms & Vendors We Work With
 
+Our team has hands-on experience supporting the applications and infrastructure your facility relies on every day:
+
 | Category | Partners & Platforms |
 |---|---|
 | PACS / RIS | Sectra, Intelerad, Ambra Health, Philips Vue PACS, GE Centricity |
