@@ -2,51 +2,64 @@
 title: "Dental Office Solutions"
 date: 2025-10-31T13:45:00+06:00
 bg_image: images/banner/industry/dental/industry-dental-banner-1.jpg
-description: "Technology, fire safety, and facility solutions tailored for modern dental practices."
+description: "HIPAA-compliant Managed IT, Structured Cabling, VoIP, and IP Surveillance solutions built for dental offices and multi-location practices across Texas."
 url: "/industry/dental/"
 type: "industry"
+icon: "ti-medall-alt"
 ---
 
-### Precision. Protection. Performance.
+### Connected. Compliant. Patient-Ready.
 
-At **Up To Par Technologies**, we specialize in providing complete technology, safety, and facility solutions for **dental offices and clinics**.  
-From secure IT networks and patient data protection to clean, code-compliant facilities, we help practices create efficient, safe, and modern environments for both staff and patients.
+At **Up To Par Technologies**, we understand that a dental practice runs on more than clinical skill — it runs on reliable technology. From digital imaging systems and practice management software to front-desk connectivity and patient check-in, every device in your office depends on a network that just works.
 
----
-
-## 🦷 Our Core Services for Dental Practices
-
-- 💻 **Managed IT & HIPAA-Compliant Support**  
-  Reliable IT management, network monitoring, and cybersecurity for dental management software and imaging systems.  
-  Fully compliant with **HIPAA** and **HITECH** standards.
-
-- 🧵 **Structured Cabling & Network Installation**  
-  Clean and organized CAT6 and fiber cabling for dental suites, imaging rooms, and front-office networks — professionally labeled and certified.
-
-- 🔥 **Fire Extinguisher & Life-Safety Systems**  
-  NFPA-compliant fire extinguishers, emergency lighting, and inspection services to keep your practice safe and compliant with Texas state regulations.
-
-- 💦 **Facility Power Washing & Maintenance**  
-  Exterior cleaning for dental offices, clinics, and commercial buildings — maintaining a professional first impression for your patients.
-
-- 📹 **Security Camera & Access Control Systems**  
-  Discreet, reliable IP camera systems and access management solutions that protect your property and maintain patient privacy.
+We partner with single-location dental offices and multi-practice groups across Central Texas to deliver HIPAA-compliant IT infrastructure, modern communication systems, and the physical network backbone that ties everything together.
 
 ---
 
-## 🧠 Why Dentists Choose Up To Par Technologies
+### Technology Services for Dental Practices
 
-- HIPAA-Certified Network & IT Professionals  
-- Licensed Fire & Life-Safety Technicians  
-- Clean, Organized Installations That Meet Code  
-- Scalable Support Plans for Single or Multi-Office Practices  
-- Local Texas Team — Fast, Reliable, and Professional  
+**Managed IT & HIPAA-Compliant Networking**
+Proactive monitoring and management of your entire network — from workstations and servers to imaging systems and cloud backups. We ensure your practice stays secure, compliant, and productive without you having to think about IT.
+
+**Structured Cabling & Low-Voltage Infrastructure**
+Certified CAT6 and fiber cabling for operatories, front office, imaging rooms, and sterilization areas. Clean, labeled runs that support your digital X-ray units, intraoral cameras, and practice management workstations.
+
+**VoIP Phone Systems**
+Modern IP phone systems with call routing, hold queues, and voicemail-to-email — replacing aging phone lines with clear, professional communication that scales as your practice grows.
+
+**IP Camera & Access Control**
+Protect your team, patients, and controlled substance storage with professionally installed surveillance cameras and badge-based access control for sensitive areas.
+
+**Smart Office & Waiting Room Setup**
+Digital signage, automated check-in displays, and AV integration for patient education and waiting area entertainment — all managed from a single platform.
 
 ---
 
-### 😷 Build a Smarter, Safer Dental Practice
-[📞 Contact Us Today](/contact/) — our experts can design a complete infrastructure and safety plan for your dental office.  
-From secure data to spotless facilities — we keep your practice running “Up To Par.”
+### Platforms & Vendors We Work With
+
+| Category | Partners & Platforms |
+|---|---|
+| Practice Management | Dentrix, Eaglesoft, Carestream Dental, Dexis, Curve Dental |
+| Imaging & Diagnostics | Planmeca, Sirona (Dentsply), Vatech, Carestream |
+| Microsoft Ecosystem | Microsoft 365, Azure, Teams, Intune |
+| Networking | Cisco Meraki, Fortinet, Ubiquiti |
+| VoIP | RingCentral, 8x8, Cisco |
+| Security & EDR | CrowdStrike, SentinelOne, Malwarebytes |
+| Backup & Recovery | Datto, Acronis, Veeam |
+| Surveillance | Axis, Hikvision, Genetec |
 
 ---
 
+### Why Dental Practices Choose Up To Par Technologies
+
+- HIPAA-aware technicians with dental industry experience
+- Support for digital imaging, intraoral cameras, and practice management platforms
+- Proactive monitoring — issues resolved before they affect patient flow
+- Flat-rate managed plans with no surprise invoices
+- Local Central Texas team with fast on-site response
+
+---
+
+Ready to modernize your practice's technology? [Contact us today](/contact/) for a free network assessment and consultation.
+
+**Service Area:** Austin · Cedar Park · Leander · Round Rock · San Antonio · Central Texas

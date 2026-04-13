@@ -2,49 +2,62 @@
 title: "Optometry & Vision Care Solutions"
 date: 2025-10-31T13:50:00+06:00
 bg_image: images/banner/industry/vision/vision-001.jpg
-description: "Technology, safety, and facility solutions designed for modern optometry and vision care centers."
+description: "HIPAA-compliant Managed IT, Structured Cabling, VoIP, and IP Surveillance solutions built for optometry clinics and vision care centers across Texas."
 url: "/industry/vision/"
+type: "industry"
+icon: "ti-eye"
 ---
 
-### Clarity. Reliability. Confidence.
+### Clear Technology for Vision Care Professionals.
 
-At **Up To Par Technologies**, we deliver complete technology, safety, and facility solutions for **optometry clinics, ophthalmology centers, and vision care providers**.  
-From imaging-equipment networking to HIPAA-compliant security and fire-safety systems, we help practices operate smoothly, securely, and professionally.
-
----
-
-## 👁️ Our Core Services for Vision Care Centers
-
-- 💻 **Managed IT & HIPAA-Compliant Network Support**  
-  Secure networks, endpoint protection, and reliable IT support for EHR systems, imaging software, OCT units, retinal cameras, and diagnostic equipment.
-
-- 🧵 **Structured Cabling & Low-Voltage Infrastructure**  
-  Clean, labeled, and certified cabling for exam rooms, pre-testing stations, imaging suites, and admin offices — optimized for high-bandwidth diagnostic devices.
-
-- 🔥 **Fire Extinguisher & Life-Safety Compliance**  
-  Licensed inspection, installation, and servicing of fire extinguishers, emergency lighting, and safety equipment per NFPA and Texas regulations.
-
-- 💦 **Exterior Power Washing & Facility Maintenance**  
-  Professional cleaning services for clinics, medical buildings, and plaza suites — keeping patient-facing areas spotless and welcoming.
-
-- 📹 **Security Cameras & Access Control Systems**  
-  HIPAA-aligned surveillance and access control protecting patient areas, lab spaces, optical rooms, and inventory storage.
+At **Up To Par Technologies**, we support optometry clinics, ophthalmology centers, and multi-location vision care providers with the reliable, HIPAA-compliant technology infrastructure their operations depend on. From high-bandwidth networks that support OCT units and retinal cameras to VoIP systems and IP surveillance, we handle the technology so you can focus on your patients.
 
 ---
 
-## 🧠 Why Vision Care Professionals Choose Up To Par Technologies
+### Technology Services for Vision Care Centers
 
-- HIPAA-Trained IT & Networking Specialists  
-- Experienced with Ophthalmic & Diagnostic Imaging Hardware  
-- Licensed Fire & Life-Safety Technicians  
-- Clean, Organized Installations Designed for Clinical Environments  
-- Fast, Local Support Across Texas — Remote & On-Site
+**Managed IT & HIPAA-Compliant Networking**
+Secure, proactively monitored networks built around the demands of diagnostic imaging equipment and EHR platforms. We keep your systems online, patched, and protected — so appointments run on time and patient data stays safe.
+
+**Structured Cabling & Low-Voltage Infrastructure**
+Certified cabling for exam lanes, pre-testing stations, imaging suites, optical dispensaries, and administrative offices. Designed to support high-bandwidth diagnostic devices without interference.
+
+**VoIP Phone Systems**
+Professional IP-based phone systems with call routing, appointment reminder integrations, and voicemail-to-email — replacing outdated phone lines with a modern, scalable communication platform.
+
+**IP Camera & Access Control**
+Surveillance and access control protecting patient areas, optical inventory, lab spaces, and restricted storage — installed to maintain HIPAA privacy standards.
+
+**Smart Office Setup**
+Waiting room digital displays, automated check-in systems, and AV integration that enhance the patient experience and streamline front-desk operations.
 
 ---
 
-### 👓 Keeping Your Vision Practice Running Clearly
+### Platforms & Vendors We Work With
 
-[📞 Contact Us Today](/contact/) — let our experts design a compliant, efficient, and secure infrastructure for your optometry or vision care center.  
-Your patients trust you with their vision — trust us with the technology behind it.
+| Category | Partners & Platforms |
+|---|---|
+| EHR / Practice Management | Compulink, RevolutionEHR, Crystal PM, Nextech, Eyefinity |
+| Diagnostic Equipment | Marco, Topcon, Zeiss, Haag-Streit, Optos |
+| Microsoft Ecosystem | Microsoft 365, Azure, Teams, Intune |
+| Networking | Cisco Meraki, Fortinet, Ubiquiti |
+| VoIP | RingCentral, 8x8, Cisco |
+| Security & EDR | CrowdStrike, SentinelOne, Malwarebytes |
+| Backup & Recovery | Datto, Acronis, Veeam |
+| Surveillance | Axis, Hikvision, Genetec |
 
 ---
+
+### Why Vision Care Providers Choose Up To Par Technologies
+
+- HIPAA-aware technicians with ophthalmic technology experience
+- Support for diagnostic imaging hardware and vision-specific EHR platforms
+- Proactive monitoring — issues resolved before they affect your schedule
+- Flat-rate managed plans with no surprise invoices
+- Local Central Texas team with fast on-site response
+
+---
+
+Ready to build a technology foundation your practice can rely on? [Contact us today](/contact/) for a free network assessment and consultation.
+
+**Service Area:** Austin · Cedar Park · Leander · Round Rock · San Antonio · Central Texas
