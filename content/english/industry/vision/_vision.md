@@ -35,6 +35,8 @@ Waiting room digital displays, automated check-in systems, and AV integration th
 
 ### Platforms & Vendors We Work With
 
+Our team has hands-on experience supporting the applications and infrastructure your practice relies on every day:
+
 | Category | Partners & Platforms |
 |---|---|
 | EHR / Practice Management | Compulink, RevolutionEHR, Crystal PM, Nextech, Eyefinity |
@@ -55,6 +57,7 @@ Waiting room digital displays, automated check-in systems, and AV integration th
 - Proactive monitoring — issues resolved before they affect your schedule
 - Flat-rate managed plans with no surprise invoices
 - Local Central Texas team with fast on-site response
+- Scalable from single-provider offices to multi-location networks
 
 ---
 
