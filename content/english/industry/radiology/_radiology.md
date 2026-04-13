@@ -57,6 +57,8 @@ Our team has hands-on experience supporting the applications and infrastructure 
 - HIPAA-aware technicians and documentation standards
 - Proactive monitoring with fast on-site response
 - Flat-rate managed plans with no surprise invoices
+- Local Central Texas team with fast on-site support
+- Scalable from single-location to multi-site imaging networks
 
 ---
 
